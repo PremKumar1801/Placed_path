@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
-import { Users, Activity, CreditCard, FileText, AlertCircle, BarChart3 } from "lucide-react";
+import { Users, Activity, CreditCard, BarChart3 } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from "recharts";
 
 const userStats = [
@@ -110,8 +110,8 @@ export default function AdminPage() {
           <TabsContent value="users" className="mt-6 space-y-4">
             <Input placeholder="Search users..." className="max-w-sm" />
             <Card className="border-border/50">
-              <CardContent className="p-0">
-                <table className="w-full text-sm">
+              <CardContent className="p-0 overflow-x-auto">
+                <table className="w-full text-sm min-w-[600px]">
                   <thead><tr className="border-b bg-muted/50"><th className="p-3 text-left">Name</th><th className="p-3 text-left">Email</th><th className="p-3 text-left">Role</th><th className="p-3 text-left">Plan</th><th className="p-3 text-left">Joined</th></tr></thead>
                   <tbody>
                     {users.map((u) => (
@@ -173,8 +173,8 @@ export default function AdminPage() {
 
           <TabsContent value="logs" className="mt-6">
             <Card className="border-border/50">
-              <CardContent className="p-0">
-                <table className="w-full text-sm">
+              <CardContent className="p-0 overflow-x-auto">
+                <table className="w-full text-sm min-w-[500px]">
                   <thead><tr className="border-b bg-muted/50"><th className="p-3 text-left">Time</th><th className="p-3 text-left">Level</th><th className="p-3 text-left">Message</th></tr></thead>
                   <tbody>
                     {logs.map((log, i) => (

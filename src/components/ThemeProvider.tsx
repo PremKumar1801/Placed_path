@@ -21,7 +21,7 @@ const ThemeProviderContext = createContext<ThemeProviderState>({
 export function ThemeProvider({
   children,
   defaultTheme = "dark",
-  storageKey = "engipath-theme",
+  storageKey = "placement-path-theme",
 }: ThemeProviderProps) {
   const [theme, setTheme] = useState<Theme>(
     () => (localStorage.getItem(storageKey) as Theme) || defaultTheme

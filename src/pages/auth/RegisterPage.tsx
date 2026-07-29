@@ -17,7 +17,7 @@ export default function RegisterPage() {
         </CardHeader>
         <CardContent>
           <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="fname">First name</Label>
                 <Input id="fname" placeholder="John" required maxLength={50} />

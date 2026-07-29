@@ -2,7 +2,7 @@ import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { Building2, Calendar, Target, Users } from "lucide-react";
+import { Building2, Calendar, Users } from "lucide-react";
 
 const phases = [
   { name: "Foundation", status: "done", desc: "DSA basics, core CS, resume ready" },

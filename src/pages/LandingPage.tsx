@@ -13,7 +13,6 @@ import {
   Star,
   Zap,
   Shield,
-  Users,
   GraduationCap,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -35,7 +34,7 @@ const steps = [
 ];
 
 const testimonials = [
-  { name: "Priya S.", role: "3rd Year, CSE", quote: "EngiPath helped me find my passion in data science and land a summer internship!", rating: 5 },
+  { name: "Priya S.", role: "3rd Year, CSE", quote: "Placement-Path helped me find my passion in data science and land a summer internship!", rating: 5 },
   { name: "Rahul M.", role: "2nd Year, ECE", quote: "The roadmap kept me focused. I went from confused to confident in one semester.", rating: 5 },
   { name: "Ananya K.", role: "4th Year, IT", quote: "The placement planner was a game-changer. I cracked interviews at 3 companies!", rating: 5 },
 ];
@@ -93,7 +92,7 @@ export default function LandingPage() {
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold">Everything You Need to Succeed</h2>
             <p className="mt-3 text-muted-foreground">
-              From roadmap generation to placement preparation, EngiPath AI covers your entire engineering journey.
+              From roadmap generation to placement preparation, Placement-Path covers your entire engineering journey.
             </p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

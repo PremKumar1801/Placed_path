@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="py-20">
         <div className="container">
           <div className="mx-auto max-w-2xl text-center">
-            <h1 className="text-4xl font-bold">About EngiPath AI</h1>
+            <h1 className="text-4xl font-bold">About Placement-Path</h1>
             <p className="mt-4 text-lg text-muted-foreground">
               We're on a mission to give every engineering student clarity, structure, and confidence.
             </p>

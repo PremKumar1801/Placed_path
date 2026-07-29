@@ -25,12 +25,12 @@ export default function SettingsPage() {
         <Card className="border-border/50">
           <CardHeader><CardTitle className="text-lg">Profile</CardTitle></CardHeader>
           <CardContent className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div><Label>First Name</Label><Input defaultValue="John" /></div>
               <div><Label>Last Name</Label><Input defaultValue="Doe" /></div>
             </div>
             <div><Label>Email</Label><Input type="email" defaultValue="john@example.com" /></div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <Label>Branch</Label>
                 <Select defaultValue="cs">

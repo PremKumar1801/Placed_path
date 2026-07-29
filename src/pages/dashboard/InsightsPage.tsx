@@ -1,5 +1,5 @@
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -32,7 +32,7 @@ export default function InsightsPage() {
             </div>
             <div className="flex gap-2">
               <Input placeholder="e.g., What should I focus on this week?" className="bg-background" />
-              <Button size="icon"><Send className="h-4 w-4" /></Button>
+              <Button size="icon" aria-label="Send query"><Send className="h-4 w-4" /></Button>
             </div>
             <p className="mt-2 text-xs text-muted-foreground">AI integration coming soon. This is a preview.</p>
           </CardContent>

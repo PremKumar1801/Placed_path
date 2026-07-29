@@ -15,10 +15,10 @@ export function Logo({ collapsed = false, className = "" }: LogoProps) {
       {!collapsed && (
         <div className="flex flex-col">
           <span className="text-lg font-bold leading-tight tracking-tight text-foreground">
-            EngiPath
+            Placement
           </span>
           <span className="text-[10px] font-medium uppercase tracking-widest text-primary">
-            AI
+            Path
           </span>
         </div>
       )}

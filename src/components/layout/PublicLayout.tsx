@@ -62,7 +62,7 @@ export function PublicLayout({ children }: PublicLayoutProps) {
           {/* Mobile toggle */}
           <div className="flex items-center gap-2 lg:hidden">
             <ThemeToggle />
-            <Button variant="ghost" size="icon" onClick={() => setMobileOpen(!mobileOpen)}>
+            <Button variant="ghost" size="icon" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle navigation menu">
               {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
           </div>
@@ -132,7 +132,7 @@ export function PublicLayout({ children }: PublicLayoutProps) {
             </div>
           </div>
           <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-            © 2026 EngiPath AI. All rights reserved.
+            © 2026 Placement-Path. All rights reserved.
           </div>
         </div>
       </footer>

@@ -23,11 +23,11 @@ export default function PrivacyPage() {
             </div>
             <div>
               <h2 className="mb-2 text-lg font-semibold text-foreground">4. Your Rights</h2>
-              <p>You have the right to access, update, or delete your personal data at any time. Contact us at privacy@engipath.ai for any data-related requests.</p>
+              <p>You have the right to access, update, or delete your personal data at any time. Contact us at privacy@placement-path.com for any data-related requests.</p>
             </div>
             <div>
               <h2 className="mb-2 text-lg font-semibold text-foreground">5. Contact</h2>
-              <p>For privacy-related inquiries, reach us at privacy@engipath.ai.</p>
+              <p>For privacy-related inquiries, reach us at privacy@placement-path.com.</p>
             </div>
           </div>
         </div>

@@ -56,7 +56,7 @@ export default function ContactPage() {
 
             <div className="space-y-6">
               {[
-                { icon: Mail, title: "Email", detail: "hello@engipath.ai" },
+                { icon: Mail, title: "Email", detail: "hello@placement-path.com" },
                 { icon: MapPin, title: "Location", detail: "Bangalore, India" },
                 { icon: Clock, title: "Response Time", detail: "Within 24 hours" },
               ].map((item) => (
